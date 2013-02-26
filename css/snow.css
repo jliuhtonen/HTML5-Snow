@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+canvas {
+    z-index: 5;
+    position: absolute;
+}
+
+#drawContainer {
+    position: relative;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    z-index: 5;
+}
+
+#controls {
+    margin: 0 auto 0.2em;
+    width: 790px;
+    background: #545d6f;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    font-size: 1em;
+}
+
+#controls input {
+    margin-right: 1em :
+}
+
+#controls h3 {
+    text-shadow: 2px 0 2px #000000;
+    margin-bottom: 10px;
+}
+
+#content {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background: #668ddb;
+    z-index: 1;
+    box-shadow: inset 0 0 20px #ffffff;
+    border-radius: 5px;
+    position: relative;
+}
+
+#infoBox {
+    background: #545d6f;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+#infoBox h5 {
+    margin-left: auto;
+    margin-right: auto;
+}
